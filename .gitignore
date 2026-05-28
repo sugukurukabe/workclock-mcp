@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.workclock/
+.env
+*.log
+.DS_Store
