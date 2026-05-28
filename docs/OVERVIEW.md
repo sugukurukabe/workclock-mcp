@@ -486,7 +486,7 @@ git init
 git add -A
 git commit -m "chore: release v1.0.0"
 git branch -M main
-git remote add origin https://github.com/sugukuru/workclock-mcp.git
+git remote add origin https://github.com/sugukurukabe/workclock-mcp.git
 git push -u origin main
 ```
 
