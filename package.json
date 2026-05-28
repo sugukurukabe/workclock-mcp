@@ -1,6 +1,6 @@
 {
   "name": "sugukuru-workclock-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sugukuru WorkClock MCP — local-first Pomodoro and work-time logging MCP server for developers. Natural Japanese commands, append-only JSONL ledger, auto-generated Markdown, MCP Apps timer UI.",
   "type": "module",
   "main": "dist/main.js",
