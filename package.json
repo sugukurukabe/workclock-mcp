@@ -54,7 +54,7 @@
     "smoke": "node scripts/smoke-stdio.mjs",
     "lint": "eslint src web tests",
     "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.web.json --noEmit",
-    "verify": "npm run typecheck && npm run lint && npm run test && npm run build && npm run smoke",
+    "verify": "npm run typecheck && npm run lint && npm run build && npm run test && npm run smoke",
     "prepublishOnly": "npm run build",
     "inspect:stdio": "npx @modelcontextprotocol/inspector node dist/main.js --stdio",
     "inspect:http": "npx @modelcontextprotocol/inspector http://127.0.0.1:3002/mcp"
@@ -92,6 +92,6 @@
     "typescript-eslint": "^8.26.1",
     "vite": "^6.2.1",
     "vite-plugin-singlefile": "^2.1.0",
-    "vitest": "^3.0.8"
+    "vitest": "^4.1.8"
   }
 }
